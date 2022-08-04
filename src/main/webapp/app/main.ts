@@ -24,7 +24,6 @@ import AlertService from './shared/alert/alert.service';
 import '../content/scss/global.scss';
 import '../content/scss/vendor.scss';
 import TranslationService from '@/locale/translation.service';
-
 import GatewayService from '@/admin/gateway/gateway.service';
 /* tslint:disable */
 

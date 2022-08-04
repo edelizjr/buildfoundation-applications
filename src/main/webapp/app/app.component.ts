@@ -10,7 +10,6 @@ import '@/shared/config/dayjs';
   components: {
     ribbon: Ribbon,
     'jhi-navbar': JhiNavbar,
-
     'jhi-footer': JhiFooter,
   },
 })

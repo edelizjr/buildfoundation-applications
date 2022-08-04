@@ -4,8 +4,8 @@
       <span class="hipster img-fluid rounded"></span>
     </div>
     <div class="col-md-9">
-      <h1 class="display-4" v-text="$t('home.title')">Welcome, Java Hipster!</h1>
-      <p class="lead" v-text="$t('home.subtitle')">This is your homepage</p>
+      <h1 class="display-4" v-text="$t('home.title')">Welcome, Our Take On Sports!</h1>
+      <p class="lead" v-text="$t('home.subtitle')">Your place for sports</p>
 
       <div>
         <div class="alert alert-success" v-if="authenticated">
