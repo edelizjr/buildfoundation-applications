@@ -1,9 +1,18 @@
 <template>
   <div class="home row">
-    <div class="col-md-3">
-      <span class="hipster img-fluid rounded"></span>
-    </div>
     <div class="col-md-9">
+      <div>
+        <b-card
+          overlay
+          img-src="https://picsum.photos/900/250/?image=3"
+          img-alt="Card Image"
+          text-variant="white"
+          title="Image Overlay"
+          sub-title="Subtitle"
+        >
+          <b-card-text> Some quick example text to build on the card and make up the bulk of the card's content. </b-card-text>
+        </b-card>
+      </div>
       <div>
         <div class="alert alert-success" v-if="authenticated">
           <span v-if="username" v-text="$t('home.logged.message', { username: username })">You are logged in as user "{{ username }}"</span>
