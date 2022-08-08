@@ -25,6 +25,9 @@ import {
   BInputGroup,
   BInputGroupPrepend,
   BCard,
+  BCardGroup,
+  BCarousel,
+  BCarouselSlide,
 } from 'bootstrap-vue';
 
 export function initBootstrapVue(vue) {
@@ -55,4 +58,7 @@ export function initBootstrapVue(vue) {
   vue.component('b-input-group', BInputGroup);
   vue.component('b-input-group-prepend', BInputGroupPrepend);
   vue.component('b-card', BCard);
+  vue.component('b-card-group', BCardGroup);
+  vue.component('b-carousel', BCarousel);
+  vue.component('b-carousel-slide', BCarouselSlide);
 }
