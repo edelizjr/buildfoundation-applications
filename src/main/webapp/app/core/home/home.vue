@@ -1,6 +1,7 @@
 <template>
   <div class="home row">
-    <div class="col-md-9">
+    <div class="col"></div>
+    <div class="col-md-8">
       <div>
         <b-card
           overlay
@@ -118,6 +119,7 @@
         </div>
       </div>
     </div>
+    <div class="col"></div>
   </div>
 </template>
 
